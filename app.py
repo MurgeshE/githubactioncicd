@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Welcome to githubaction from Cloud Run!"
+    return "Good Afternoon to GitHub Action from Cloud Run!"
 
 if __name__ == "__main__":
     # Cloud Run requires listening on 0.0.0.0 and the PORT env var
